@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leonetardo.petagram.ActivityAcercaDe">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <TextView
+        android:paddingLeft="@dimen/margin_text"
+        android:layout_below="@+id/miActionBar"
+        android:id="@+id/tituloBio"
+        android:textSize="@dimen/tituloBio"
+        android:textStyle="bold"
+        android:text="@string/texto_titulo_acerca_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingLeft="@dimen/margin_text"
+        android:layout_below="@+id/tituloBio"
+        android:text="@string/texto_cuerpo_acerca_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

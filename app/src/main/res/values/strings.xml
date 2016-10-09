@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="texto_titulo_acerca_de">Biografía del desarrollador</string>
+    <string name="texto_cuerpo_acerca_de">
+        Leonardo Saucedo nació en Buenos Aires en 1978. Es analista de sistemas de la Facultad ORT
+        y estudiante de canto en el Consevatorio Manuel de Falla.
+    </string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="comentario">Comentario</string>
+    <string name="btn1">Enviar Comentario</string>
+    <string name="mail_enviado">Mail enviado...</string>
+    <string name="nombreMascotaPerfil">Lisa</string>
+</resources>
